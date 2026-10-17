@@ -1,0 +1,86 @@
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f3ebc1;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.quiz-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #329c4d;
+}
+
+.quiz-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.quiz-container input {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.quiz-container button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #329c4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quiz-container button:hover {
+    background-color: #003080;
+}
+
+.correct {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+.quiz-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.quiz-image img {
+    max-width: 100%; /* L'image s'adapte à la largeur */
+    height: auto; /* Respecte les proportions */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-container {
+    flex-grow: 1;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-container {
+    flex-grow: 1;
+}
+

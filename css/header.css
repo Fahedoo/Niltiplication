@@ -1,0 +1,54 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3ebc1;
+    padding: 0 20px;
+    height: 100px;
+    border-bottom: 3px solid #d4a017;
+    font-family: 'Irish Grover', cursive;
+}
+
+.left-links,
+.right-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 22px;
+}
+
+.left-links a,
+.right-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.left-links a:hover,
+.right-links a:hover {
+    color: #d46b00;
+}
+
+.titre h1 {
+    font-size: 42px;
+    color: #d46b00;
+    margin: 0;
+    text-align: center;
+}
+
+.login-link {
+    background-color: #d46b00;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.login-link:hover {
+    background-color: #a14000;
+}
+
+
+

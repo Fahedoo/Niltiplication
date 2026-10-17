@@ -1,0 +1,100 @@
+/* Conteneur principal avec les poteaux */
+.mention-container-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f3ebc1; /* Fond beige */
+    min-height: 100vh; /* Couvre toute la hauteur de la page */
+}
+
+/* Images des poteaux */
+.poteau {
+    position: absolute;
+    width: 350px; /* Largeur augmentée pour un effet imposant */
+    height: 100%; /* Les poteaux dépassent la hauteur de la page */
+    z-index: 0; /* Derrière le contenu principal */
+    opacity: 0.9; /* Transparence légère */
+    bottom: 0; /* Aligne les poteaux en bas */
+}
+
+.poteau-gauche {
+    left: -50px; /* Décalage pour donner un effet bord */
+}
+
+.poteau-droit {
+    right: -50px; /* Décalage pour donner un effet bord */
+}
+
+/* Conteneur des mentions légales */
+.main-container {
+    position: relative;
+    z-index: 1; /* Par-dessus les poteaux */
+    background-color: #f3ebc1; /* Fond blanc */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+    text-align: left;
+    font-family: Arial, sans-serif; /* Police par défaut */
+}
+
+/* Titres principaux */
+.main-container h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #d46b00; 
+    margin-bottom: 20px;
+}
+
+/* Sous-titres des sections */
+.main-container h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #d46b00;
+    text-transform: uppercase;
+    border-bottom: 2px solid #7a9e37; /* Ligne verte */
+    padding-bottom: 10px;
+}
+
+/* Texte du contenu */
+.main-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #333; /* Texte gris foncé */
+    margin-bottom: 15px;
+}
+
+/* Listes */
+.main-container ul {
+    list-style-type: none; /* Supprime les puces classiques */
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.main-container ul li {
+    font-size: 16px;
+    line-height: 1.6;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+/* Sections individuelles */
+.main-container section {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Ligne de séparation légère */
+}
+
+.main-container section:last-child {
+    border-bottom: none; /* Supprime la ligne pour la dernière section */
+}
+
+
+
+
+

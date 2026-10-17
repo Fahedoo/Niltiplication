@@ -1,0 +1,71 @@
+/* Appliquer le centrage vertical uniquement à la page de login */
+body.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Conteneur du formulaire */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f3ebc1;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    flex: 1;
+}
+
+.login-container h2 {
+    color: #7a9e37;
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login-container button {
+    background-color: #d46b00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #a0522d;
+}
+
+.login-icon {
+    width: 100px;
+    margin-bottom: 15px;
+}
+.inscription-link {
+    color: #d46b00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.inscription-link:hover {
+    text-decoration: underline;
+}

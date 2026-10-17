@@ -1,0 +1,99 @@
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f3ebc1;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes fixes */
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Carte individuelle */
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 300px; /* << Ajouté */
+}
+
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* Image dans la carte */
+.card img {
+    height: 150px;
+    width: auto;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+/* Titre de la carte */
+.card h2 {
+    font-size: 18px;
+    color: #d46b00;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Paragraphe de contenu */
+.card p {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Bouton */
+.card .button {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #d46b00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card .button:hover {
+    background-color: #a14000;
+}
+
+/* Bannière */
+.banner {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.filtre-container {
+    max-width: 400px;
+    margin: 0 auto 30px;
+}
+
+#filtre {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,35 @@
+.site-footer {
+    background-color: #99c649; /* Couleur verte */
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    border-top: 3px solid #7a9e37;
+    flex-shrink: 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-nav {
+    margin-top: 10px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #d4e8a7;
+}

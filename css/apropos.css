@@ -1,0 +1,44 @@
+.apropos-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f3ebc1; /* Fond beige */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+}
+
+.apropos-container h1 {
+    font-size: 2em;
+    color: #7a9e37; 
+    margin-bottom: 20px;
+}
+
+.apropos-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Texte gris foncé */
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video-container video {
+    width: 100%; /* Vidéo prend toute la largeur du conteneur */
+    max-width: 720px; /* Largeur maximale de la vidéo */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.apropos-container {
+    flex-grow: 1;
+}
